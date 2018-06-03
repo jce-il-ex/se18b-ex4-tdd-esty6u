@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "tape ./test/*.test.js"
+	"istanbul": "istanbul cover tape ./test/*.test.js"
   },
   "repository": {
     "type": "git",
